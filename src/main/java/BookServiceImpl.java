@@ -38,6 +38,10 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public void displayBook() {
+        int i = 0;
+        for (Book book : bookArrayList) {
+            System.out.println(i++ +"-" + book);
+        }
 
     }
 }
